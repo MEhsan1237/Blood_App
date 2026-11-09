@@ -9,8 +9,7 @@ import 'services/chat_service.dart';
 import 'services/notification_service.dart';
 import 'screens/auth/splash_screen.dart';
 
-/// The entry point of the Bloody app.
-/// It initializes Firebase and sets up global providers for theme, auth, and chat.
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
